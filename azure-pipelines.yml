@@ -6,7 +6,7 @@ pool:
 
 variables:
   imageName: azure-pipelines-canary-k8s
-  dockerRegistryServiceConnection: jmounce
+  dockerRegistryServiceConnection: azure-pipelines-canary-k8s
   imageRepository: 'azure-pipelines-canary-k8s'
   containerRegistry: jmounce
   tag: '$(Build.BuildId)'
